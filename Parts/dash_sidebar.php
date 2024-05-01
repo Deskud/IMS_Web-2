@@ -20,6 +20,9 @@
                         <li >
                             <a href="Notif.php"><i class="fa-solid fa-bell"></i><span class="menuText" > Notification</span></a>
                         </li>
+                        <li >
+                            <a href="QRCode.php"><i class="fa-solid fa-bell"></i><span class="menuText" > QR Code</span></a>
+                        </li>
                         <li>
                             <a href="Settings.php"><i class="fa-solid fa-gear"></i><span class="menuText" > Settings</span></a>
                         </li>
