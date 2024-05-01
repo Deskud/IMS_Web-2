@@ -54,9 +54,21 @@
             xhr.send('order_id=' + order_id);
         });
         function printQRCode() {
-            // Placeholder function for printing QR code
-            // This function will be replaced with actual printing logic
-            alert("Printing QR Code...");
+            // Create a new window to display the printable content
+            var printableContent = document.getElementById('qr_code_container').innerHTML;
+            var newWindow = window.open('', '_blank');
+            
+            // Write the printable content to the new window
+            newWindow.document.open();
+            newWindow.document.write('<html><head><title>Print QR Code</title></head><body>');
+            newWindow.document.write(printableContent);
+            newWindow.document.write('</body></html>');
+            newWindow.document.close();
+            
+            // Call the print function after a slight delay to ensure the content is loaded
+            setTimeout(function() {
+                newWindow.print();
+            }, 1000);
         }
     </script>
 </body>
