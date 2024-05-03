@@ -21,17 +21,7 @@ while($data = $result->fetch_assoc())
     $response .= $allData;
    
 ?>
-<div>
 
-<button id= "hisdownl">
-    
-    <?php
-        echo '<a href = "'.$response.'" download="PurchaseHistoryUniform.csv">Download</a>'; 
-    ?>
-    
-</button>
-
-</div>
 
 <div class = "purchaseHistory">
         <table>
@@ -59,5 +49,17 @@ while($data = $result->fetch_assoc())
            
         </table>
  </div>
+
+ <div>
+
+<button id= "hisdownl">
+    
+    <?php
+        echo '<a href = "'.$response.'" download="PurchaseHistoryUniform.csv">Download</a>'; 
+    ?>
+    
+</button>
+
+</div>
  
 

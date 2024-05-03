@@ -165,7 +165,7 @@ div.loginHeader h1{
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 div.loginHeader p{
     font-size: 30px;
@@ -173,7 +173,7 @@ div.loginHeader p{
     margin-bottom: -30px;
    padding-bottom: 30px;
   
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
 }
 div.loginHeader p::before{
 content: "";
@@ -186,7 +186,7 @@ margin: auto;
 }
 div.loginBody form{
     margin: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     position: relative;
     top: 100px;
@@ -254,13 +254,13 @@ div.dashboardSideBar{
 }
 div.dashboardContent_Container{
     width: 100%;
-    background: #9b9999;
+    background: #ffffff;
 }
 
 h3.dashboardLogo{
     color: rgb(40, 119, 255);
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 15px;
     font-size: 40px;
     text-align: center;
@@ -288,7 +288,7 @@ div.dashboardSideBar_User span{
     text-transform: uppercase;
     color: white;
     display: inline-block;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -299,7 +299,7 @@ margin-top: 0%;
 ul.dashboardSideBar_Menu_lists li{
     padding: 20px 15px;
     
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 
 }
@@ -345,7 +345,7 @@ div.dashboard_topNav a{
 }
 
 #logoutButton{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 float: right;
 }
 div.dashboardContent{
@@ -356,7 +356,7 @@ div.dashboardContent{
 /* Purchase History Table */
 
   th, td{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     border: 2px solid rgb(13, 13, 13);
     padding: 20px;
     font-size: large;
@@ -366,7 +366,8 @@ div.dashboardContent{
 
 table{
     background-color: aliceblue;
-    margin: 20px;
+    /* margin: 20px; */
+    margin-left: 350px;
 
     
 }
@@ -386,11 +387,12 @@ table{
 
 #hisdownl{
     width: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     height: 35px;
     border-radius: 20px;
     border: solid 2px rgb(29, 29, 29);
-    margin-left: 20px;
+    margin-left: 350px;
+    margin-top: 120px;
     font-weight: bold;
     
 
@@ -414,20 +416,22 @@ table{
 
 .ProductsTitle{
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 .Product_container{
     max-width: 450px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 
 }
 .AddProd form {
     width: 400px;
     height: 300px;
-    margin: 20px;
+    /* margin: 20px; */
+    margin-left: 550px;
+    margin-bottom: 50px;
     padding: 20px;
     background-color: rgb(223, 215, 215);
     border-radius: 30px;
@@ -444,7 +448,7 @@ display: inline-block;
 
 .Addbutton {
     width:250px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     height: 35px;
     border-radius: 10px;
     border: solid 2px rgb(29, 29, 29);
@@ -468,7 +472,7 @@ display: inline-block;
     display: block;
     width: 400px;
     background: #ffffff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 32px;
@@ -480,18 +484,18 @@ display: inline-block;
     height: 90px;
     margin: 10px;
     padding: 5px;
-    border-radius: 20px;
-    border:solid 1px #000;
+  
 
 
 }
 .btnEdit:hover{
     background:rgb(40, 119, 255, 0.5);
+   
 
 }
 .GoBack{
     width:50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     height: 15px;
     border-radius: 10px;
     border: solid 2px rgb(29, 29, 29);
@@ -512,7 +516,7 @@ display: inline-block;
 
 #qrcode_h2 {
     font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .qrcode_container {
@@ -533,7 +537,7 @@ display: inline-block;
 .input_order_id {
     width: 250px;
     height: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     text-align: center;
     display: inline-block;
@@ -541,7 +545,7 @@ display: inline-block;
 
 .generate_button {
     width:200px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     height: 35px;
     border-radius: 10px;
     border: solid 2px rgb(29, 29, 29);

@@ -60,9 +60,10 @@
             
             // Write the printable content to the new window
             newWindow.document.open();
-            newWindow.document.write('<html><head><title>Print QR Code</title></head><body>');
+            newWindow.document.write('<html><head><title>QR Code</title></head><body>');
             newWindow.document.write(printableContent);
             newWindow.document.write('</body></html>');
+           
             newWindow.document.close();
             
             // Call the print function after a slight delay to ensure the content is loaded
